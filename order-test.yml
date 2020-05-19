@@ -30,4 +30,4 @@ feign:
         readTimeout: 5000
         loggerLevel: basic  
 server:
-  port: 88881
+  port: 8888
