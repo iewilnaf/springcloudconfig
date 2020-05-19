@@ -20,7 +20,7 @@ spring:
 env:
   test12
 girl:
-  name: momoyahah
+  name: mo
   age: 18
 feign:
   client:
