@@ -15,7 +15,8 @@ server:
 management:
   endpoints:
     web:
-      expose: "*"
+      exposure: 
+        include: refresh,health,info
 # management:
 #   endpoints:
 #     web:
