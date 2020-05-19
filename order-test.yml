@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: Root2019@
+    url: jdbc:mysql://122.51.29.221:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+  #    url: jdbc:mysql://192.168.25.131:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+#    host: 192.168.25.131
+    host: 122.51.29.221
+    port: 5672
+    username: user
+    password: user
+  redis:
+    host: 122.51.29.221
+    port: 7001
+    password: 123456
+env:
+  test10
+girl:
+  name: mo
+  age: 17
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic  
