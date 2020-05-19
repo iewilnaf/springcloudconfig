@@ -1,0 +1,23 @@
+# spring:
+#   application:
+#     name: order
+#   datasource:
+#     driver-class-name: com.mysql.jdbc.Driver
+#     username: root
+#     password: Root2019@
+#     url: dbc:mysql://122.51.29.221:3306/SpringCloud_Sell?allowMultiQueries=true&autoReconnect=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8888
+# management:
+#   endpoints:
+#     web:
+#       expose: "*"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
