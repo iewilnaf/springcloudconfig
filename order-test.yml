@@ -18,7 +18,7 @@ spring:
     port: 7001
     password: 123456
 env:
-  test10
+  test12
 girl:
   name: mom
   age: 18
