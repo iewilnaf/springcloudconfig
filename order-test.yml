@@ -20,7 +20,7 @@ spring:
 env:
   test10
 girl:
-  name: momoya
+  name: mom
   age: 18
 feign:
   client:
