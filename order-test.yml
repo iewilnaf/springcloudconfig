@@ -18,9 +18,9 @@ spring:
     port: 7001
     password: 123456
 env:
-  test155
+  test10
 girl:
-  name: mo
+  name: momoa
   age: 18
 feign:
   client:
